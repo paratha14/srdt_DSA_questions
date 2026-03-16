@@ -1,0 +1,11 @@
+public class Q30ReverseString {
+    public static String reverse(String s) {
+        return new StringBuilder(s).reverse().toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(reverse("GLA"));
+        System.out.println(reverse("for"));
+        System.out.println(reverse("Capgemini"));
+    }
+}
